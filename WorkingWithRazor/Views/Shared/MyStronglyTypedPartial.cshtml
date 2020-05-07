@@ -1,0 +1,11 @@
+﻿@* 强类型分部视图 *@
+@model IEnumerable<string>
+<div>
+    This is the message from the partial view.
+    <ul>
+        @foreach (string str in Model)
+        {
+            <li>@str</li>
+        }
+    </ul>
+</div>
